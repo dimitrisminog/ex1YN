@@ -71,7 +71,7 @@ nrmlzd_tfidf_values = scaler.fit_transform(dense_tfidf_values)
 # pairnw ta antistoixa dates mono twn 1000 lexewn
 spes_words = dataframe.iloc[:nrmlzd_tfidf_values.shape[0]]
 
-ypologismos meshs timhs
+#ypologismos meshs timhs
 labels_min_max = spes_words[['date_min', 'date_max']].mean(axis=1).values
 
 # xwrismos dedomenw se syola ekpaideyshs
